@@ -6,5 +6,7 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get '/My anme is '
+  get '/name' do
+    "My name is __"
+  end
 end
